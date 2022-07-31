@@ -4,7 +4,7 @@ this is my first try to use ionic vue..
 ### first subproject
 #### creating project
 1. Installing ionic globally : npm install -g @ionic/cli@latest native-run cordova-res
-2. Creating new project : ionic start <name>photo-gallery tabs <template>--type vue <options>--capacitor
+2. Creating new project : ionic start 'name'photo-gallery tabs `*template*`--type vue `*options*`--capacitor
 3. installing "@capacitor/camera": "^4.0.1", "@capacitor/haptics": "4.0.1", "@capacitor/keyboard", "@capacitor/status-bar", "@capacitor/storage"
 #### customizing project
 1. change tab2 view layout, adding gallerie field and take picture button
@@ -26,9 +26,14 @@ this is the floating action button container component
 this is the floating action button component
 ##### ion-icon
 this is the icon component
-2. 
+2. creating logic .. image taking and saving .. 
 3. adding mobile adaptability to the project
 ##### isPlatform
  import { isPlatform } from '@ionic/vue';
  - isPlatform is a function that returns true if the current platform is the given platform.
  Ex: isPlatform("hybrid") will return true if the current platform is either ios or android.
+ 4. building project
+ 4.1. ionic build 
+ 4.2. ionic cap add `*platform*` android
+// after updating project : ionic cap copy,ionic cap sync
+4.2. Open project in emulator environment : ionic cap open `*platform*` android 
