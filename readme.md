@@ -26,3 +26,9 @@ this is the floating action button container component
 this is the floating action button component
 ##### ion-icon
 this is the icon component
+2. 
+3. adding mobile adaptability to the project
+##### isPlatform
+ import { isPlatform } from '@ionic/vue';
+ - isPlatform is a function that returns true if the current platform is the given platform.
+ Ex: isPlatform("hybrid") will return true if the current platform is either ios or android.
