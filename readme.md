@@ -5,3 +5,4 @@ this is my first try to use ionic vue..
 #### creating project
 1. Installing ionic globally : npm install -g @ionic/cli@latest native-run cordova-res
 2. Creating new project : ionic start <name>photo-gallery tabs <template>--type vue <options>--capacitor
+3. installing "@capacitor/camera": "^4.0.1", "@capacitor/haptics": "4.0.1", "@capacitor/keyboard", "@capacitor/status-bar", "@capacitor/storage"
